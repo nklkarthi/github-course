@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Show the trigger
-        run: echo "event type is:" ${{ github.event.action }}
+        run: echo "event type is:" ${{ github.event_name }}
